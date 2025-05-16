@@ -23,3 +23,6 @@ app.get('/api/motorcycles', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+app.use(cors({
+  origin: 'https://vercel.com/deepak205-techs-projects/motorcycle-specs-frontend', // or '*' for all origins, but better to specify frontend URL
+}));
