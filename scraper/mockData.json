@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "brand": "Yamaha",
+    "model": "YZF-R1",
+    "year": 2022
+  },
+  {
+    "id": 2,
+    "brand": "Honda",
+    "model": "CBR1000RR",
+    "year": 2021
+  }
+]
