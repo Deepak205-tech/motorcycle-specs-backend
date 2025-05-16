@@ -26,5 +26,6 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 app.use(cors({
-  origin: 'https://vercel.com/deepak205-techs-projects/motorcycle-specs-frontend', // or '*' for all origins, but better to specify frontend URL
+  origin: ['http://localhost:5173', 'https://motorcycle-specs-frontend.vercel.app/'], // 👈 Add your frontend URLs
+  credentials: true, // or '*' for all origins, but better to specify frontend URL
 }));
